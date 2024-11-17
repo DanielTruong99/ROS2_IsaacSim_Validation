@@ -73,7 +73,7 @@ class LegRobotFlatTerrainPolicy:
         self._dof_control_modes: List[int] = list()
 
         # Policy
-        policy_root_path = "/home/ryz2/DanielWorkspace/RL/RLHumanoidRobot/logs/rsl_rl/simple_walking_robot/2024-10-30_16-13-15/exported"
+        policy_root_path = "/home/ryz2/DanielWorkspace/RL/ROS2_IsaacSim_Validation/isaac_sim_extension/custom_humanoid_2_python/exported_model"
         file_content = omni.client.read_file(policy_root_path + "/policy.pt")[2]
         file = io.BytesIO(memoryview(file_content).tobytes())
 

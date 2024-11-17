@@ -27,8 +27,8 @@ class HumanoidExample(BaseSample):
         # bindings for keyboard to command
         self._input_keyboard_mapping = {
             # forward command
-            "NUMPAD_8": [3.5, 0.0, 0.0],
-            "UP": [0.75, 0.0, 0.0],
+            "NUMPAD_8": [0.8, 0.0, 0.0],
+            "UP": [0.8, 0.0, 0.0],
             # yaw command (positive)
             "NUMPAD_4": [0.0, 0.0, 0.75],
             "LEFT": [0.0, 0.0, 0.75],
